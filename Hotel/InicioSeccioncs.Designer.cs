@@ -87,6 +87,7 @@
             this.btnIngresar.TabIndex = 5;
             this.btnIngresar.Text = "Ingresar";
             this.btnIngresar.UseVisualStyleBackColor = true;
+            this.btnIngresar.Click += new System.EventHandler(this.btnIngresar_Click);
             // 
             // BtnCancelar
             // 
@@ -94,8 +95,9 @@
             this.BtnCancelar.Name = "BtnCancelar";
             this.BtnCancelar.Size = new System.Drawing.Size(88, 28);
             this.BtnCancelar.TabIndex = 6;
-            this.BtnCancelar.Text = "Canselar ";
+            this.BtnCancelar.Text = "Cancelar ";
             this.BtnCancelar.UseVisualStyleBackColor = true;
+            this.BtnCancelar.Click += new System.EventHandler(this.BtnCancelar_Click);
             // 
             // BtnRegistrar
             // 

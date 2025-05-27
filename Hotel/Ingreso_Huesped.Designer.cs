@@ -140,6 +140,7 @@
             this.BtnIngresarH.TabIndex = 11;
             this.BtnIngresarH.Text = "Ingresar";
             this.BtnIngresarH.UseVisualStyleBackColor = true;
+            this.BtnIngresarH.Click += new System.EventHandler(this.BtnIngresarH_Click);
             // 
             // BtnCancelarH
             // 

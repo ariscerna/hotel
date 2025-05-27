@@ -85,6 +85,7 @@
             this.BtnGuardar.Name = "BtnGuardar";
             this.BtnGuardar.Size = new System.Drawing.Size(34, 32);
             this.BtnGuardar.Text = "Guardar";
+            this.BtnGuardar.Click += new System.EventHandler(this.BtnGuardar_Click);
             // 
             // BtnEliminar
             // 

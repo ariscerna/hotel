@@ -16,5 +16,15 @@ namespace Hotel
         {
             InitializeComponent();
         }
+
+        private void BtnReservar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnCancelarR_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

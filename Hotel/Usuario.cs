@@ -6,14 +6,16 @@ using System.Threading.Tasks;
 
 namespace Hotel
 {
-    internal class Usuario
+    public class Usuario
     {
         public string Nombre { get; set; }
         public string apellido_paterno { get; set; }
         public string apellido_materno { get; set; }
-
         public string UsuarioNombre { get; set; }
         public string Contrasena { get; set; }
+        public string contrasenaencrip { get; set; }
+
+        public string tipo_usuario { get; set; } // Agregado para el tipo de usuario
 
         public Usuario()
         {
@@ -22,6 +24,7 @@ namespace Hotel
             apellido_materno = "";
             UsuarioNombre = "";
             Contrasena = "";
+            tipo_usuario = "";
         }
     }
 }

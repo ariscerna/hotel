@@ -34,13 +34,15 @@
             this.LblApellidoPU = new System.Windows.Forms.Label();
             this.TxtApellidoU = new System.Windows.Forms.TextBox();
             this.LblApellidoMU = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.TxtApellidoM = new System.Windows.Forms.TextBox();
             this.LblTipoU = new System.Windows.Forms.Label();
             this.TxtTipoU = new System.Windows.Forms.TextBox();
             this.LblConstraseña = new System.Windows.Forms.Label();
             this.TxtContraseña = new System.Windows.Forms.TextBox();
             this.BtnCancelarU = new System.Windows.Forms.Button();
             this.BtnRegistarU = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.TxtNombreUsuario2 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // LblRegistroU
@@ -58,9 +60,9 @@
             this.LblNombreU.AutoSize = true;
             this.LblNombreU.Location = new System.Drawing.Point(12, 118);
             this.LblNombreU.Name = "LblNombreU";
-            this.LblNombreU.Size = new System.Drawing.Size(131, 16);
+            this.LblNombreU.Size = new System.Drawing.Size(62, 16);
             this.LblNombreU.TabIndex = 1;
-            this.LblNombreU.Text = "Nombre de Usuario :";
+            this.LblNombreU.Text = "Nombre :";
             // 
             // TxtNombreUsuario
             // 
@@ -94,12 +96,12 @@
             this.LblApellidoMU.TabIndex = 5;
             this.LblApellidoMU.Text = "Apellido Materno :";
             // 
-            // textBox1
+            // TxtApellidoM
             // 
-            this.textBox1.Location = new System.Drawing.Point(172, 206);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(168, 22);
-            this.textBox1.TabIndex = 6;
+            this.TxtApellidoM.Location = new System.Drawing.Point(172, 206);
+            this.TxtApellidoM.Name = "TxtApellidoM";
+            this.TxtApellidoM.Size = new System.Drawing.Size(168, 22);
+            this.TxtApellidoM.TabIndex = 6;
             // 
             // LblTipoU
             // 
@@ -120,7 +122,7 @@
             // LblConstraseña
             // 
             this.LblConstraseña.AutoSize = true;
-            this.LblConstraseña.Location = new System.Drawing.Point(15, 307);
+            this.LblConstraseña.Location = new System.Drawing.Point(15, 335);
             this.LblConstraseña.Name = "LblConstraseña";
             this.LblConstraseña.Size = new System.Drawing.Size(82, 16);
             this.LblConstraseña.TabIndex = 9;
@@ -128,7 +130,7 @@
             // 
             // TxtContraseña
             // 
-            this.TxtContraseña.Location = new System.Drawing.Point(172, 307);
+            this.TxtContraseña.Location = new System.Drawing.Point(172, 332);
             this.TxtContraseña.Name = "TxtContraseña";
             this.TxtContraseña.Size = new System.Drawing.Size(168, 22);
             this.TxtContraseña.TabIndex = 10;
@@ -141,6 +143,7 @@
             this.BtnCancelarU.TabIndex = 11;
             this.BtnCancelarU.Text = "Cancelar";
             this.BtnCancelarU.UseVisualStyleBackColor = true;
+            this.BtnCancelarU.Click += new System.EventHandler(this.BtnCancelarU_Click);
             // 
             // BtnRegistarU
             // 
@@ -150,19 +153,38 @@
             this.BtnRegistarU.TabIndex = 12;
             this.BtnRegistarU.Text = "Registar";
             this.BtnRegistarU.UseVisualStyleBackColor = true;
+            this.BtnRegistarU.Click += new System.EventHandler(this.BtnRegistarU_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(14, 294);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(134, 16);
+            this.label1.TabIndex = 13;
+            this.label1.Text = "Nombre de Usuario : ";
+            // 
+            // TxtNombreUsuario2
+            // 
+            this.TxtNombreUsuario2.Location = new System.Drawing.Point(172, 294);
+            this.TxtNombreUsuario2.Name = "TxtNombreUsuario2";
+            this.TxtNombreUsuario2.Size = new System.Drawing.Size(168, 22);
+            this.TxtNombreUsuario2.TabIndex = 14;
             // 
             // Agregar_Usuario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(460, 450);
+            this.Controls.Add(this.TxtNombreUsuario2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.BtnRegistarU);
             this.Controls.Add(this.BtnCancelarU);
             this.Controls.Add(this.TxtContraseña);
             this.Controls.Add(this.LblConstraseña);
             this.Controls.Add(this.TxtTipoU);
             this.Controls.Add(this.LblTipoU);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.TxtApellidoM);
             this.Controls.Add(this.LblApellidoMU);
             this.Controls.Add(this.TxtApellidoU);
             this.Controls.Add(this.LblApellidoPU);
@@ -184,12 +206,14 @@
         private System.Windows.Forms.Label LblApellidoPU;
         private System.Windows.Forms.TextBox TxtApellidoU;
         private System.Windows.Forms.Label LblApellidoMU;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox TxtApellidoM;
         private System.Windows.Forms.Label LblTipoU;
         private System.Windows.Forms.TextBox TxtTipoU;
         private System.Windows.Forms.Label LblConstraseña;
         private System.Windows.Forms.TextBox TxtContraseña;
         private System.Windows.Forms.Button BtnCancelarU;
         private System.Windows.Forms.Button BtnRegistarU;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox TxtNombreUsuario2;
     }
 }

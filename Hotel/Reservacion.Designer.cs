@@ -34,11 +34,15 @@
             this.LblCostoR = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.LblTipoR = new System.Windows.Forms.Label();
-            this.ChTipoR = new System.Windows.Forms.CheckedListBox();
             this.LblNombreR = new System.Windows.Forms.Label();
             this.TxtNombre = new System.Windows.Forms.TextBox();
             this.BtnCancelarR = new System.Windows.Forms.Button();
             this.BtnReservar = new System.Windows.Forms.Button();
+            this.chkSencilla = new System.Windows.Forms.CheckBox();
+            this.chkDoble = new System.Windows.Forms.CheckBox();
+            this.chkSuite = new System.Windows.Forms.CheckBox();
+            this.LblNumeroH = new System.Windows.Forms.Label();
+            this.TxtNumeroH = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // LblReservacion
@@ -53,7 +57,7 @@
             // LbLFechaR
             // 
             this.LbLFechaR.AutoSize = true;
-            this.LbLFechaR.Location = new System.Drawing.Point(13, 106);
+            this.LbLFechaR.Location = new System.Drawing.Point(16, 86);
             this.LbLFechaR.Name = "LbLFechaR";
             this.LbLFechaR.Size = new System.Drawing.Size(144, 16);
             this.LbLFechaR.TabIndex = 1;
@@ -61,7 +65,7 @@
             // 
             // TxtFechaR
             // 
-            this.TxtFechaR.Location = new System.Drawing.Point(202, 103);
+            this.TxtFechaR.Location = new System.Drawing.Point(202, 83);
             this.TxtFechaR.Name = "TxtFechaR";
             this.TxtFechaR.Size = new System.Drawing.Size(180, 22);
             this.TxtFechaR.TabIndex = 2;
@@ -69,7 +73,7 @@
             // LblCostoR
             // 
             this.LblCostoR.AutoSize = true;
-            this.LblCostoR.Location = new System.Drawing.Point(16, 171);
+            this.LblCostoR.Location = new System.Drawing.Point(15, 146);
             this.LblCostoR.Name = "LblCostoR";
             this.LblCostoR.Size = new System.Drawing.Size(141, 16);
             this.LblCostoR.TabIndex = 3;
@@ -77,7 +81,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(202, 171);
+            this.textBox1.Location = new System.Drawing.Point(202, 146);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(180, 22);
             this.textBox1.TabIndex = 4;
@@ -90,18 +94,6 @@
             this.LblTipoR.Size = new System.Drawing.Size(122, 16);
             this.LblTipoR.TabIndex = 5;
             this.LblTipoR.Text = "Tipo de Habitacion";
-            // 
-            // ChTipoR
-            // 
-            this.ChTipoR.FormattingEnabled = true;
-            this.ChTipoR.Items.AddRange(new object[] {
-            "Habitacion Doble",
-            "Habitacion Sencilla",
-            "Habitacion Suite"});
-            this.ChTipoR.Location = new System.Drawing.Point(191, 234);
-            this.ChTipoR.Name = "ChTipoR";
-            this.ChTipoR.Size = new System.Drawing.Size(191, 72);
-            this.ChTipoR.TabIndex = 6;
             // 
             // LblNombreR
             // 
@@ -127,6 +119,7 @@
             this.BtnCancelarR.TabIndex = 9;
             this.BtnCancelarR.Text = "Cancelar";
             this.BtnCancelarR.UseVisualStyleBackColor = true;
+            this.BtnCancelarR.Click += new System.EventHandler(this.BtnCancelarR_Click);
             // 
             // BtnReservar
             // 
@@ -136,17 +129,70 @@
             this.BtnReservar.TabIndex = 10;
             this.BtnReservar.Text = "Reservar";
             this.BtnReservar.UseVisualStyleBackColor = true;
+            this.BtnReservar.Click += new System.EventHandler(this.BtnReservar_Click);
+            // 
+            // chkSencilla
+            // 
+            this.chkSencilla.AutoSize = true;
+            this.chkSencilla.Location = new System.Drawing.Point(202, 230);
+            this.chkSencilla.Name = "chkSencilla";
+            this.chkSencilla.Size = new System.Drawing.Size(77, 20);
+            this.chkSencilla.TabIndex = 11;
+            this.chkSencilla.Text = "Sencilla";
+            this.chkSencilla.UseVisualStyleBackColor = true;
+            // 
+            // chkDoble
+            // 
+            this.chkDoble.AutoSize = true;
+            this.chkDoble.Location = new System.Drawing.Point(202, 256);
+            this.chkDoble.Name = "chkDoble";
+            this.chkDoble.Size = new System.Drawing.Size(66, 20);
+            this.chkDoble.TabIndex = 12;
+            this.chkDoble.Text = "Doble";
+            this.chkDoble.UseVisualStyleBackColor = true;
+            // 
+            // chkSuite
+            // 
+            this.chkSuite.AutoSize = true;
+            this.chkSuite.Checked = true;
+            this.chkSuite.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkSuite.Location = new System.Drawing.Point(202, 282);
+            this.chkSuite.Name = "chkSuite";
+            this.chkSuite.Size = new System.Drawing.Size(59, 20);
+            this.chkSuite.TabIndex = 13;
+            this.chkSuite.Text = "Suite";
+            this.chkSuite.UseVisualStyleBackColor = true;
+            // 
+            // LblNumeroH
+            // 
+            this.LblNumeroH.AutoSize = true;
+            this.LblNumeroH.Location = new System.Drawing.Point(22, 189);
+            this.LblNumeroH.Name = "LblNumeroH";
+            this.LblNumeroH.Size = new System.Drawing.Size(142, 16);
+            this.LblNumeroH.TabIndex = 14;
+            this.LblNumeroH.Text = "Numero de Habitacion";
+            // 
+            // TxtNumeroH
+            // 
+            this.TxtNumeroH.Location = new System.Drawing.Point(202, 189);
+            this.TxtNumeroH.Name = "TxtNumeroH";
+            this.TxtNumeroH.Size = new System.Drawing.Size(179, 22);
+            this.TxtNumeroH.TabIndex = 15;
             // 
             // Reservacion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(511, 450);
+            this.Controls.Add(this.TxtNumeroH);
+            this.Controls.Add(this.LblNumeroH);
+            this.Controls.Add(this.chkSuite);
+            this.Controls.Add(this.chkDoble);
+            this.Controls.Add(this.chkSencilla);
             this.Controls.Add(this.BtnReservar);
             this.Controls.Add(this.BtnCancelarR);
             this.Controls.Add(this.TxtNombre);
             this.Controls.Add(this.LblNombreR);
-            this.Controls.Add(this.ChTipoR);
             this.Controls.Add(this.LblTipoR);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.LblCostoR);
@@ -168,10 +214,14 @@
         private System.Windows.Forms.Label LblCostoR;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label LblTipoR;
-        private System.Windows.Forms.CheckedListBox ChTipoR;
         private System.Windows.Forms.Label LblNombreR;
         private System.Windows.Forms.TextBox TxtNombre;
         private System.Windows.Forms.Button BtnCancelarR;
         private System.Windows.Forms.Button BtnReservar;
+        private System.Windows.Forms.CheckBox chkSencilla;
+        private System.Windows.Forms.CheckBox chkDoble;
+        private System.Windows.Forms.CheckBox chkSuite;
+        private System.Windows.Forms.Label LblNumeroH;
+        private System.Windows.Forms.TextBox TxtNumeroH;
     }
 }
