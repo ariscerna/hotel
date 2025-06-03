@@ -9,6 +9,7 @@ using System.Configuration;
 using System.Security.Cryptography;
 using System.Windows.Forms;
 using System.Data;
+using System.Collections;
 
 namespace Hotel
 {
@@ -173,8 +174,81 @@ namespace Hotel
 
             return false; // Usuario inválido o error
         }
+        public ArrayList ConsultarProductos()
+        {
+            ArrayList ListaUsuarios = null;
+            MySqlDataReader Lector;
+            Huesped mHuesped;
 
+            string TextoComando = "Select * from  Huespedes";
 
+            try
+            {
 
+                Consulta = new MySqlCommand(TextoComando, Conexion);
+                Lector = Consulta.ExecuteReader();
+                if (Lector.HasRows)
+                {
+                    ListaUsuarios = new ArrayList();
+                    while (Lector.Read())
+                    {
+                        mHuesped = new Huesped();
+                        mHuesped.Nombre = Lector.GetString("Nombre");
+                        mHuesped.apellido_paterno = Lector.GetString("apellido_paterno");
+                        mHuesped.apellido_materno = Lector.GetString("apellido_materno");
+                        mHuesped.Edad = Lector.GetInt32("Edad");
+                        mHuesped.Correo = Lector.GetString("Correo");
+                        mHuesped.Telefono = Lector.GetInt32("Telefono");
+                        ListaUsuarios.Add(mHuesped);
+                    }
+                }
+            }
+            catch (Exception e)
+            {
+                return null;
+            }
+            return ListaUsuarios;
+        }
+        public  bool Eliminar(Huesped mHuesped)
+        {
+            string TextoComando = "delete from Huesped " 
+                + "where codigo " = mHuesped.Codigo;
+            try
+            {
+                Consulta = new MySqlCommand(TextoComando, Conexion);
+                Consulta.ExecuteNonQuery();
+                return true;
+            }
+            catch (Exception e)
+            {
+                return false;
+            }
+        }
+        public bool Modificar(Huesped mHuesped)
+        {
+            string TextoComando = "UPDATE Huesped SET nombre = @Nombre ,apellido_Paterno,apellido_materno,=@Correo,Telefono " + "WHERE codigo =@Codigo";
+
+            try
+            {
+                Consulta = new MySqlCommand(TextoComando, Conexion);
+
+                Consulta.Parameters.AddWithValue("@nombre",mHuesped.Nombre);
+                Consulta.Parameters.AddWithValue("@apellido_paterno",mHuesped.apellido_paterno);
+                Consulta.Parameters.AddWithValue("@appellido_materno",mHuesped.apellido_materno);
+                Consulta.Parameters.AddWithValue("@correo",mHuesped.Correo);
+                Consulta.Parameters.AddWithValue("@telefono",mHuesped.Telefono);
+
+                Consulta.ExecuteNonQuery();
+
+                return true;
+
+            }
+            catch
+            {
+                Console.WriteLine("Error al modificar el producto : " + Exception.Message);
+
+                    return false;
+            }
+        }
     }
 }

@@ -168,6 +168,7 @@
             this.RbdVisualizacion.TabStop = true;
             this.RbdVisualizacion.Text = "Visualizacion de usuario";
             this.RbdVisualizacion.UseVisualStyleBackColor = true;
+            this.RbdVisualizacion.CheckedChanged += new System.EventHandler(this.RbdVisualizacion_CheckedChanged);
             // 
             // FrmSistema
             // 

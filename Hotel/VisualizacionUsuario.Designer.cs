@@ -95,6 +95,7 @@
             this.BtnEliminar.Name = "BtnEliminar";
             this.BtnEliminar.Size = new System.Drawing.Size(34, 32);
             this.BtnEliminar.Text = "Eliminar";
+            this.BtnEliminar.Click += new System.EventHandler(this.BtnEliminar_Click);
             // 
             // BtnModificar
             // 
@@ -104,6 +105,7 @@
             this.BtnModificar.Name = "BtnModificar";
             this.BtnModificar.Size = new System.Drawing.Size(34, 32);
             this.BtnModificar.Text = "Modificar";
+            this.BtnModificar.Click += new System.EventHandler(this.BtnModificar_Click);
             // 
             // BtnExcel
             // 
@@ -113,6 +115,7 @@
             this.BtnExcel.Name = "BtnExcel";
             this.BtnExcel.Size = new System.Drawing.Size(34, 32);
             this.BtnExcel.Text = "Excel";
+            this.BtnExcel.Click += new System.EventHandler(this.BtnExcel_Click);
             // 
             // BtnImprimir
             // 
@@ -122,6 +125,7 @@
             this.BtnImprimir.Name = "BtnImprimir";
             this.BtnImprimir.Size = new System.Drawing.Size(34, 32);
             this.BtnImprimir.Text = "Imprimir";
+            this.BtnImprimir.Click += new System.EventHandler(this.BtnImprimir_Click);
             // 
             // BtnSalir
             // 
@@ -131,6 +135,7 @@
             this.BtnSalir.Name = "BtnSalir";
             this.BtnSalir.Size = new System.Drawing.Size(34, 32);
             this.BtnSalir.Text = "Salir";
+            this.BtnSalir.Click += new System.EventHandler(this.BtnSalir_Click);
             // 
             // DgvConsulta
             // 

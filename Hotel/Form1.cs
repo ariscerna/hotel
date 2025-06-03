@@ -61,6 +61,11 @@ namespace Hotel
         {
             this.Close();
         }
+
+        private void RbdVisualizacion_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
        
 }
