@@ -163,10 +163,10 @@
             this.RbdVisualizacion.AutoSize = true;
             this.RbdVisualizacion.Location = new System.Drawing.Point(84, 121);
             this.RbdVisualizacion.Name = "RbdVisualizacion";
-            this.RbdVisualizacion.Size = new System.Drawing.Size(173, 20);
+            this.RbdVisualizacion.Size = new System.Drawing.Size(197, 20);
             this.RbdVisualizacion.TabIndex = 22;
             this.RbdVisualizacion.TabStop = true;
-            this.RbdVisualizacion.Text = "Visualizacion de usuario";
+            this.RbdVisualizacion.Text = "Visualizacion de huespedes";
             this.RbdVisualizacion.UseVisualStyleBackColor = true;
             this.RbdVisualizacion.CheckedChanged += new System.EventHandler(this.RbdVisualizacion_CheckedChanged);
             // 

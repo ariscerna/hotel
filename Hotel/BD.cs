@@ -1,15 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using MySql.Data.MySqlClient;
-using System.Threading;
-using System.Configuration;
-using System.Security.Cryptography;
-using System.Windows.Forms;
-using System.Data;
+﻿using MySql.Data.MySqlClient;
+using Mysqlx.Crud;
+using Mysqlx.Cursor;
+using System;
 using System.Collections;
+using System.Collections.Generic;
+using System.Configuration;
+using System.Data;
+using System.Linq;
+using System.Security.Cryptography;
+using System.Text;
+using System.Threading;
+using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace Hotel
 {
@@ -18,18 +20,20 @@ namespace Hotel
         private MySqlConnection Conexion;
         private MySqlCommand Consulta;
         private string CadenaConexion;
-        
+
+        public MySqlConnection ConexionAbierta => Conexion;
+
 
         public bool Conectar()
         {
-            CadenaConexion = "Server = localhost; Database = Hotel_sol7; User ID=root;Password = 1234; ";
+            CadenaConexion = "Server = localhost; Database = Hotel_sol1; User ID=root;Password = 1234; ";
             try
             {
                 Conexion = new MySqlConnection(CadenaConexion);
                 Conexion.Open();
                 return true;
             }
-            catch (Exception ex) 
+            catch (Exception ex)
             {
                 return false;
             }
@@ -67,20 +71,22 @@ namespace Hotel
 
 
         //Guardado de huespedes nuevos  
-        public bool Guardar1(Huesped mHuespet)
+        public bool GuardarHuesped(Huesped mHuesped)
         {
-            string TextComando = "INSERT INTO Habitaciones(nombre, apellido_paterno, apellido_materno, edad, correo, telefono)" +
-                                 "VALUES(QNombre, @apellido_paterno, @apellido_materno, @Edad, @Correo, @Telefono);";
+            string TextComando = "INSERT INTO huespedes(id_huesped, nombre, apellido_paterno, apellido_materno, edad, direccion, correo, telefono)" +
+                                 "VALUES(@Id_Huesped, @Nombre, @apellido_paterno, @apellido_materno, @Edad, @Direccion, @Correo, @Telefono);";
             try
             {
                 Consulta = new MySqlCommand(TextComando, Conexion);
 
-                Consulta.Parameters.AddWithValue("@Nombre", mHuespet.Nombre);
-                Consulta.Parameters.AddWithValue("@apellido_paterno", mHuespet.apellido_paterno);
-                Consulta.Parameters.AddWithValue("@apellido_materno", mHuespet.apellido_materno);
-                Consulta.Parameters.AddWithValue("@Edad", mHuespet.Edad);
-                Consulta.Parameters.AddWithValue("@Correo", mHuespet.Correo);
-                Consulta.Parameters.AddWithValue("@Telefono", mHuespet.Telefono);
+                Consulta.Parameters.AddWithValue("@Id_Huesped", mHuesped.Id_huesped);
+                Consulta.Parameters.AddWithValue("@Nombre", mHuesped.Nombre);
+                Consulta.Parameters.AddWithValue("@apellido_paterno", mHuesped.apellido_paterno);
+                Consulta.Parameters.AddWithValue("@apellido_materno", mHuesped.apellido_materno);
+                Consulta.Parameters.AddWithValue("@Edad", mHuesped.Edad);
+                Consulta.Parameters.AddWithValue("@Direccion", mHuesped.Direccion);
+                Consulta.Parameters.AddWithValue("@Correo", mHuesped.Correo);
+                Consulta.Parameters.AddWithValue("@Telefono", mHuesped.Telefono);
                 Consulta.ExecuteNonQuery();
                 return true;
             }
@@ -116,6 +122,32 @@ namespace Hotel
                 return false;
             }
 
+        }
+
+
+        public bool GuardarReservacion(Reserva mReserva, int idUsuario, int idHabitacion, int idHuesped)
+        {
+            string TextComando = "INSERT INTO Reservaciones (fecha_reservacion, fecha_salida, costo_total, tipo_reservacion, id_usuario, id_habitacion, id_huesped) " +
+                                 "VALUES (@Fecha, @FechaSalida, @Costo, @Tipo, @IdUsuario, @IdHabitacion, @IdHuesped)";
+            try
+            {
+                Consulta = new MySqlCommand(TextComando, Conexion);
+                Consulta.Parameters.AddWithValue("@Fecha", mReserva.Fecha);
+                Consulta.Parameters.AddWithValue("@FechaSalida", mReserva.FechaSalida);
+                Consulta.Parameters.AddWithValue("@Costo", mReserva.Costo);
+                Consulta.Parameters.AddWithValue("@Tipo", mReserva.TipoHabitacion);
+                Consulta.Parameters.AddWithValue("@IdUsuario", idUsuario);
+                Consulta.Parameters.AddWithValue("@IdHabitacion", idHabitacion);
+                Consulta.Parameters.AddWithValue("@IdHuesped", idHuesped);
+
+                Consulta.ExecuteNonQuery();
+                return true;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Error al guardar reservación: " + ex.Message);
+                return false;
+            }
         }
 
 
@@ -174,7 +206,7 @@ namespace Hotel
 
             return false; // Usuario inválido o error
         }
-        public ArrayList ConsultarProductos()
+        public ArrayList ConsultarHuespedes()
         {
             ArrayList ListaUsuarios = null;
             MySqlDataReader Lector;
@@ -193,12 +225,15 @@ namespace Hotel
                     while (Lector.Read())
                     {
                         mHuesped = new Huesped();
+                        mHuesped.Id_huesped = Lector.GetInt32("id_huesped");
                         mHuesped.Nombre = Lector.GetString("Nombre");
                         mHuesped.apellido_paterno = Lector.GetString("apellido_paterno");
                         mHuesped.apellido_materno = Lector.GetString("apellido_materno");
                         mHuesped.Edad = Lector.GetInt32("Edad");
+                        mHuesped.Direccion = Lector.GetString("Direccion");
                         mHuesped.Correo = Lector.GetString("Correo");
-                        mHuesped.Telefono = Lector.GetInt32("Telefono");
+                        mHuesped.Telefono = Lector.GetString ("Telefono");
+
                         ListaUsuarios.Add(mHuesped);
                     }
                 }
@@ -209,13 +244,13 @@ namespace Hotel
             }
             return ListaUsuarios;
         }
-        public  bool Eliminar(Huesped mHuesped)
+        public bool EliminarHuesped(Huesped mHuesped)
         {
-            string TextoComando = "delete from Huesped " 
-                + "where codigo " = mHuesped.Codigo;
+            string TextoComando = "DELETE FROM huespedes WHERE id_huesped = @Id_Huesped";
             try
             {
                 Consulta = new MySqlCommand(TextoComando, Conexion);
+                Consulta.Parameters.AddWithValue("@Id_Huesped", mHuesped.Id_huesped);
                 Consulta.ExecuteNonQuery();
                 return true;
             }
@@ -226,29 +261,68 @@ namespace Hotel
         }
         public bool Modificar(Huesped mHuesped)
         {
-            string TextoComando = "UPDATE Huesped SET nombre = @Nombre ,apellido_Paterno,apellido_materno,=@Correo,Telefono " + "WHERE codigo =@Codigo";
-
+            string TextoComando = "UPDATE Huespedes SET nombre = @Nombre, apellido_paterno = @apellido_paterno, apellido_materno = @apellido_materno, edad = @Edad, direccion = @Direccion, correo = @Correo, telefono = @Telefono " +
+                                  "WHERE id_huesped = @Id_huesped;";
             try
             {
                 Consulta = new MySqlCommand(TextoComando, Conexion);
 
-                Consulta.Parameters.AddWithValue("@nombre",mHuesped.Nombre);
-                Consulta.Parameters.AddWithValue("@apellido_paterno",mHuesped.apellido_paterno);
-                Consulta.Parameters.AddWithValue("@appellido_materno",mHuesped.apellido_materno);
-                Consulta.Parameters.AddWithValue("@correo",mHuesped.Correo);
-                Consulta.Parameters.AddWithValue("@telefono",mHuesped.Telefono);
+                Consulta.Parameters.AddWithValue("@Nombre", mHuesped.Nombre);
+                Consulta.Parameters.AddWithValue("@apellido_paterno", mHuesped.apellido_paterno);
+                Consulta.Parameters.AddWithValue("@apellido_materno", mHuesped.apellido_materno);
+                Consulta.Parameters.AddWithValue("@Edad", mHuesped.Edad);
+                Consulta.Parameters.AddWithValue("@Direccion", mHuesped.Direccion);
+                Consulta.Parameters.AddWithValue("@Correo", mHuesped.Correo);
+                Consulta.Parameters.AddWithValue("@Telefono", mHuesped.Telefono);
+                Consulta.Parameters.AddWithValue("@Id_huesped", mHuesped.Id_huesped);
 
                 Consulta.ExecuteNonQuery();
-
                 return true;
-
             }
-            catch
+            catch (Exception ex)
             {
-                Console.WriteLine("Error al modificar el producto : " + Exception.Message);
-
-                    return false;
+                Console.WriteLine("Error al modificar el huésped: " + ex.Message);
+                return false;
             }
         }
+
+
+
+        public ArrayList ConsultarHuesped()
+        {
+            ArrayList ListaHuesped = null;
+            MySqlDataReader Lector;
+            Huesped mHuesped;
+            string TextoComando = "Select * from  Huespedes";
+            try
+            {
+                Consulta = new MySqlCommand(TextoComando, Conexion);
+                Lector = Consulta.ExecuteReader();
+                if (Lector.HasRows)
+                {
+                    ListaHuesped = new ArrayList();
+                    while (Lector.Read())
+                    {
+                        mHuesped = new Huesped();
+                        mHuesped.Id_huesped = Lector.GetInt32("id_huesped");
+                        mHuesped.Nombre = Lector.GetString("Nombre");
+                        mHuesped.apellido_paterno = Lector.GetString("apellido_paterno");
+                        mHuesped.apellido_materno = Lector.GetString("apellido_materno");
+                        mHuesped.Edad = Lector.GetInt32("Edad");
+                        mHuesped.Direccion = Lector.GetString("Direccion");
+                        mHuesped.Correo = Lector.GetString("Correo");
+                        mHuesped.Telefono = Lector.GetString("Telefono");
+                        ListaHuesped.Add(mHuesped);
+                    }
+                }
+            }
+            catch (Exception e)
+            {
+                return null;
+            }
+            return ListaHuesped;
+        }
     }
+
+
 }

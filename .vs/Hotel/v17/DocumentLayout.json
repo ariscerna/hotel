@@ -1,50 +1,102 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\arisc\\OneDrive\\Documentos\\GitHub\\hotel\\",
+  "WorkspaceRootPath": "C:\\Users\\Alfredo\\Documents\\Visual Studio 2022\\GitHub\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{81E10EC6-F42C-4195-AFE8-0B602F9403D1}|Hotel\\Hotel.csproj|c:\\users\\arisc\\onedrive\\documentos\\github\\hotel\\hotel\\bd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{81E10EC6-F42C-4195-AFE8-0B602F9403D1}|Hotel\\Hotel.csproj|c:\\users\\alfredo\\documents\\visual studio 2022\\github\\hotel\\bd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{81E10EC6-F42C-4195-AFE8-0B602F9403D1}|Hotel\\Hotel.csproj|solutionrelative:hotel\\bd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{81E10EC6-F42C-4195-AFE8-0B602F9403D1}|Hotel\\Hotel.csproj|C:\\Users\\arisc\\OneDrive\\Documentos\\GitHub\\hotel\\hotel\\visualizacionusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81E10EC6-F42C-4195-AFE8-0B602F9403D1}|Hotel\\Hotel.csproj|solutionrelative:hotel\\visualizacionusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{81E10EC6-F42C-4195-AFE8-0B602F9403D1}|Hotel\\Hotel.csproj|C:\\Users\\arisc\\OneDrive\\Documentos\\GitHub\\hotel\\hotel\\visualizacionusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{81E10EC6-F42C-4195-AFE8-0B602F9403D1}|Hotel\\Hotel.csproj|C:\\Users\\Alfredo\\Documents\\Visual Studio 2022\\GitHub\\hotel\\visualizacionusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{81E10EC6-F42C-4195-AFE8-0B602F9403D1}|Hotel\\Hotel.csproj|solutionrelative:hotel\\visualizacionusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{81E10EC6-F42C-4195-AFE8-0B602F9403D1}|Hotel\\Hotel.csproj|C:\\Users\\arisc\\OneDrive\\Documentos\\GitHub\\hotel\\hotel\\reservacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81E10EC6-F42C-4195-AFE8-0B602F9403D1}|Hotel\\Hotel.csproj|solutionrelative:hotel\\reservacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{81E10EC6-F42C-4195-AFE8-0B602F9403D1}|Hotel\\Hotel.csproj|C:\\Users\\arisc\\OneDrive\\Documentos\\GitHub\\hotel\\hotel\\ingreso_huesped.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{81E10EC6-F42C-4195-AFE8-0B602F9403D1}|Hotel\\Hotel.csproj|solutionrelative:hotel\\ingreso_huesped.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{81E10EC6-F42C-4195-AFE8-0B602F9403D1}|Hotel\\Hotel.csproj|c:\\users\\arisc\\onedrive\\documentos\\github\\hotel\\hotel\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{81E10EC6-F42C-4195-AFE8-0B602F9403D1}|Hotel\\Hotel.csproj|C:\\Users\\Alfredo\\Documents\\Visual Studio 2022\\GitHub\\hotel\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{81E10EC6-F42C-4195-AFE8-0B602F9403D1}|Hotel\\Hotel.csproj|solutionrelative:hotel\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{81E10EC6-F42C-4195-AFE8-0B602F9403D1}|Hotel\\Hotel.csproj|c:\\users\\arisc\\onedrive\\documentos\\github\\hotel\\hotel\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81E10EC6-F42C-4195-AFE8-0B602F9403D1}|Hotel\\Hotel.csproj|solutionrelative:hotel\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{81E10EC6-F42C-4195-AFE8-0B602F9403D1}|Hotel\\Hotel.csproj|C:\\Users\\Alfredo\\Documents\\Visual Studio 2022\\GitHub\\hotel\\inicioseccioncs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81E10EC6-F42C-4195-AFE8-0B602F9403D1}|Hotel\\Hotel.csproj|solutionrelative:hotel\\inicioseccioncs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{81E10EC6-F42C-4195-AFE8-0B602F9403D1}|Hotel\\Hotel.csproj|C:\\Users\\arisc\\OneDrive\\Documentos\\GitHub\\hotel\\hotel\\registrohabitaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81E10EC6-F42C-4195-AFE8-0B602F9403D1}|Hotel\\Hotel.csproj|solutionrelative:hotel\\registrohabitaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{81E10EC6-F42C-4195-AFE8-0B602F9403D1}|Hotel\\Hotel.csproj|C:\\Users\\Alfredo\\Documents\\Visual Studio 2022\\GitHub\\hotel\\inicioseccioncs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{81E10EC6-F42C-4195-AFE8-0B602F9403D1}|Hotel\\Hotel.csproj|solutionrelative:hotel\\inicioseccioncs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{81E10EC6-F42C-4195-AFE8-0B602F9403D1}|Hotel\\Hotel.csproj|C:\\Users\\arisc\\OneDrive\\Documentos\\GitHub\\hotel\\hotel\\facturacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{81E10EC6-F42C-4195-AFE8-0B602F9403D1}|Hotel\\Hotel.csproj|solutionrelative:hotel\\facturacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{81E10EC6-F42C-4195-AFE8-0B602F9403D1}|Hotel\\Hotel.csproj|C:\\Users\\Alfredo\\Documents\\Visual Studio 2022\\GitHub\\hotel\\visionreporte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{81E10EC6-F42C-4195-AFE8-0B602F9403D1}|Hotel\\Hotel.csproj|solutionrelative:hotel\\visionreporte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{81E10EC6-F42C-4195-AFE8-0B602F9403D1}|Hotel\\Hotel.csproj|C:\\Users\\arisc\\OneDrive\\Documentos\\GitHub\\hotel\\hotel\\reporte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{81E10EC6-F42C-4195-AFE8-0B602F9403D1}|Hotel\\Hotel.csproj|C:\\Users\\Alfredo\\Documents\\Visual Studio 2022\\GitHub\\hotel\\reserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81E10EC6-F42C-4195-AFE8-0B602F9403D1}|Hotel\\Hotel.csproj|solutionrelative:hotel\\reserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81E10EC6-F42C-4195-AFE8-0B602F9403D1}|Hotel\\Hotel.csproj|C:\\Users\\Alfredo\\Documents\\Visual Studio 2022\\GitHub\\hotel\\visualizacionusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81E10EC6-F42C-4195-AFE8-0B602F9403D1}|Hotel\\Hotel.csproj|solutionrelative:hotel\\visualizacionusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81E10EC6-F42C-4195-AFE8-0B602F9403D1}|Hotel\\Hotel.csproj|C:\\Users\\Alfredo\\Documents\\Visual Studio 2022\\GitHub\\hotel\\registrohabitaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{81E10EC6-F42C-4195-AFE8-0B602F9403D1}|Hotel\\Hotel.csproj|solutionrelative:hotel\\registrohabitaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81E10EC6-F42C-4195-AFE8-0B602F9403D1}|Hotel\\Hotel.csproj|C:\\Users\\Alfredo\\Documents\\Visual Studio 2022\\GitHub\\hotel\\reservacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{81E10EC6-F42C-4195-AFE8-0B602F9403D1}|Hotel\\Hotel.csproj|solutionrelative:hotel\\reservacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81E10EC6-F42C-4195-AFE8-0B602F9403D1}|Hotel\\Hotel.csproj|C:\\Users\\Alfredo\\Documents\\Visual Studio 2022\\GitHub\\hotel\\reporte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{81E10EC6-F42C-4195-AFE8-0B602F9403D1}|Hotel\\Hotel.csproj|solutionrelative:hotel\\reporte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{81E10EC6-F42C-4195-AFE8-0B602F9403D1}|Hotel\\Hotel.csproj|C:\\Users\\arisc\\OneDrive\\Documentos\\GitHub\\hotel\\hotel\\consultahabitaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{81E10EC6-F42C-4195-AFE8-0B602F9403D1}|Hotel\\Hotel.csproj|C:\\Users\\Alfredo\\Documents\\Visual Studio 2022\\GitHub\\hotel\\consultahabitaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{81E10EC6-F42C-4195-AFE8-0B602F9403D1}|Hotel\\Hotel.csproj|solutionrelative:hotel\\consultahabitaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81E10EC6-F42C-4195-AFE8-0B602F9403D1}|Hotel\\Hotel.csproj|C:\\Users\\Alfredo\\Documents\\Visual Studio 2022\\GitHub\\hotel\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81E10EC6-F42C-4195-AFE8-0B602F9403D1}|Hotel\\Hotel.csproj|solutionrelative:hotel\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81E10EC6-F42C-4195-AFE8-0B602F9403D1}|Hotel\\Hotel.csproj|C:\\Users\\Alfredo\\Documents\\Visual Studio 2022\\GitHub\\hotel\\reporte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81E10EC6-F42C-4195-AFE8-0B602F9403D1}|Hotel\\Hotel.csproj|solutionrelative:hotel\\reporte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81E10EC6-F42C-4195-AFE8-0B602F9403D1}|Hotel\\Hotel.csproj|C:\\Users\\Alfredo\\Documents\\Visual Studio 2022\\GitHub\\hotel\\consultahabitaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81E10EC6-F42C-4195-AFE8-0B602F9403D1}|Hotel\\Hotel.csproj|solutionrelative:hotel\\consultahabitaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81E10EC6-F42C-4195-AFE8-0B602F9403D1}|Hotel\\Hotel.csproj|C:\\Users\\Alfredo\\Documents\\Visual Studio 2022\\GitHub\\hotel\\ingreso_huesped.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{81E10EC6-F42C-4195-AFE8-0B602F9403D1}|Hotel\\Hotel.csproj|solutionrelative:hotel\\ingreso_huesped.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81E10EC6-F42C-4195-AFE8-0B602F9403D1}|Hotel\\Hotel.csproj|C:\\Users\\Alfredo\\Documents\\Visual Studio 2022\\GitHub\\hotel\\ingreso_huesped.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81E10EC6-F42C-4195-AFE8-0B602F9403D1}|Hotel\\Hotel.csproj|solutionrelative:hotel\\ingreso_huesped.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81E10EC6-F42C-4195-AFE8-0B602F9403D1}|Hotel\\Hotel.csproj|C:\\Users\\Alfredo\\Documents\\Visual Studio 2022\\GitHub\\hotel\\reservacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81E10EC6-F42C-4195-AFE8-0B602F9403D1}|Hotel\\Hotel.csproj|solutionrelative:hotel\\reservacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81E10EC6-F42C-4195-AFE8-0B602F9403D1}|Hotel\\Hotel.csproj|C:\\Users\\Alfredo\\Documents\\Visual Studio 2022\\GitHub\\hotel\\huesped.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81E10EC6-F42C-4195-AFE8-0B602F9403D1}|Hotel\\Hotel.csproj|solutionrelative:hotel\\huesped.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81E10EC6-F42C-4195-AFE8-0B602F9403D1}|Hotel\\Hotel.csproj|C:\\Users\\Alfredo\\Documents\\Visual Studio 2022\\GitHub\\hotel\\archivo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81E10EC6-F42C-4195-AFE8-0B602F9403D1}|Hotel\\Hotel.csproj|solutionrelative:hotel\\archivo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81E10EC6-F42C-4195-AFE8-0B602F9403D1}|Hotel\\Hotel.csproj|C:\\Users\\Alfredo\\Documents\\Visual Studio 2022\\GitHub\\hotel\\registrohabitaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81E10EC6-F42C-4195-AFE8-0B602F9403D1}|Hotel\\Hotel.csproj|solutionrelative:hotel\\registrohabitaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81E10EC6-F42C-4195-AFE8-0B602F9403D1}|Hotel\\Hotel.csproj|C:\\Users\\Alfredo\\Documents\\Visual Studio 2022\\GitHub\\hotel\\habitacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81E10EC6-F42C-4195-AFE8-0B602F9403D1}|Hotel\\Hotel.csproj|solutionrelative:hotel\\habitacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81E10EC6-F42C-4195-AFE8-0B602F9403D1}|Hotel\\Hotel.csproj|C:\\Users\\Alfredo\\Documents\\Visual Studio 2022\\GitHub\\hotel\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81E10EC6-F42C-4195-AFE8-0B602F9403D1}|Hotel\\Hotel.csproj|solutionrelative:hotel\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81E10EC6-F42C-4195-AFE8-0B602F9403D1}|Hotel\\Hotel.csproj|C:\\Users\\Alfredo\\Documents\\Visual Studio 2022\\GitHub\\hotel\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81E10EC6-F42C-4195-AFE8-0B602F9403D1}|Hotel\\Hotel.csproj|solutionrelative:hotel\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,55 +106,27 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BD.cs",
-              "DocumentMoniker": "C:\\Users\\arisc\\OneDrive\\Documentos\\GitHub\\hotel\\Hotel\\BD.cs",
-              "RelativeDocumentMoniker": "Hotel\\BD.cs",
-              "ToolTip": "C:\\Users\\arisc\\OneDrive\\Documentos\\GitHub\\hotel\\Hotel\\BD.cs",
-              "RelativeToolTip": "Hotel\\BD.cs",
-              "ViewState": "AgIAAMgAAACATBVWAuorwNEAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T16:13:34.374Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "VisualizacionUsuario.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\arisc\\OneDrive\\Documentos\\GitHub\\hotel\\Hotel\\VisualizacionUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\Alfredo\\Documents\\Visual Studio 2022\\GitHub\\Hotel\\VisualizacionUsuario.cs",
               "RelativeDocumentMoniker": "Hotel\\VisualizacionUsuario.cs",
-              "ToolTip": "C:\\Users\\arisc\\OneDrive\\Documentos\\GitHub\\hotel\\Hotel\\VisualizacionUsuario.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\Alfredo\\Documents\\Visual Studio 2022\\GitHub\\Hotel\\VisualizacionUsuario.cs [Dise\u00F1o]",
               "RelativeToolTip": "Hotel\\VisualizacionUsuario.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-21T02:52:35.783Z",
-              "IsPinned": true,
-              "EditorCaption": " [Dise\u00F1o]"
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Ingreso_Huesped.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\arisc\\OneDrive\\Documentos\\GitHub\\hotel\\Hotel\\Ingreso_Huesped.cs",
-              "RelativeDocumentMoniker": "Hotel\\Ingreso_Huesped.cs",
-              "ToolTip": "C:\\Users\\arisc\\OneDrive\\Documentos\\GitHub\\hotel\\Hotel\\Ingreso_Huesped.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Hotel\\Ingreso_Huesped.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T00:53:58.469Z",
-              "IsPinned": true,
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "ConsultaHabitaciones.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\arisc\\OneDrive\\Documentos\\GitHub\\hotel\\Hotel\\ConsultaHabitaciones.cs",
+              "DocumentMoniker": "C:\\Users\\Alfredo\\Documents\\Visual Studio 2022\\GitHub\\Hotel\\ConsultaHabitaciones.cs",
               "RelativeDocumentMoniker": "Hotel\\ConsultaHabitaciones.cs",
-              "ToolTip": "C:\\Users\\arisc\\OneDrive\\Documentos\\GitHub\\hotel\\Hotel\\ConsultaHabitaciones.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\Alfredo\\Documents\\Visual Studio 2022\\GitHub\\Hotel\\ConsultaHabitaciones.cs [Dise\u00F1o]",
               "RelativeToolTip": "Hotel\\ConsultaHabitaciones.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-21T00:05:48.578Z",
@@ -110,23 +134,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Facturacion.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\arisc\\OneDrive\\Documentos\\GitHub\\hotel\\Hotel\\Facturacion.cs",
-              "RelativeDocumentMoniker": "Hotel\\Facturacion.cs",
-              "ToolTip": "C:\\Users\\arisc\\OneDrive\\Documentos\\GitHub\\hotel\\Hotel\\Facturacion.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Hotel\\Facturacion.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T00:29:22.516Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Reporte.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\arisc\\OneDrive\\Documentos\\GitHub\\hotel\\Hotel\\Reporte.cs",
+              "DocumentMoniker": "C:\\Users\\Alfredo\\Documents\\Visual Studio 2022\\GitHub\\Hotel\\Reporte.cs",
               "RelativeDocumentMoniker": "Hotel\\Reporte.cs",
-              "ToolTip": "C:\\Users\\arisc\\OneDrive\\Documentos\\GitHub\\hotel\\Hotel\\Reporte.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\Alfredo\\Documents\\Visual Studio 2022\\GitHub\\Hotel\\Reporte.cs [Dise\u00F1o]",
               "RelativeToolTip": "Hotel\\Reporte.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-21T01:07:29.427Z",
@@ -134,72 +146,269 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "RegistroHabitaciones.cs",
-              "DocumentMoniker": "C:\\Users\\arisc\\OneDrive\\Documentos\\GitHub\\hotel\\Hotel\\RegistroHabitaciones.cs",
-              "RelativeDocumentMoniker": "Hotel\\RegistroHabitaciones.cs",
-              "ToolTip": "C:\\Users\\arisc\\OneDrive\\Documentos\\GitHub\\hotel\\Hotel\\RegistroHabitaciones.cs",
-              "RelativeToolTip": "Hotel\\RegistroHabitaciones.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGAAAAAYAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "Reservacion.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Alfredo\\Documents\\Visual Studio 2022\\GitHub\\Hotel\\Reservacion.cs",
+              "RelativeDocumentMoniker": "Hotel\\Reservacion.cs",
+              "ToolTip": "C:\\Users\\Alfredo\\Documents\\Visual Studio 2022\\GitHub\\Hotel\\Reservacion.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Hotel\\Reservacion.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T06:33:10.737Z",
+              "WhenOpened": "2025-06-01T15:46:15.139Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Alfredo\\Documents\\Visual Studio 2022\\GitHub\\Hotel\\Form1.cs",
+              "RelativeDocumentMoniker": "Hotel\\Form1.cs",
+              "ToolTip": "C:\\Users\\Alfredo\\Documents\\Visual Studio 2022\\GitHub\\Hotel\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Hotel\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T20:22:40.152Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RegistroHabitaciones.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Alfredo\\Documents\\Visual Studio 2022\\GitHub\\Hotel\\RegistroHabitaciones.cs",
+              "RelativeDocumentMoniker": "Hotel\\RegistroHabitaciones.cs",
+              "ToolTip": "C:\\Users\\Alfredo\\Documents\\Visual Studio 2022\\GitHub\\Hotel\\RegistroHabitaciones.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Hotel\\RegistroHabitaciones.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T21:16:21.584Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BD.cs",
+              "DocumentMoniker": "C:\\Users\\Alfredo\\Documents\\Visual Studio 2022\\GitHub\\Hotel\\BD.cs",
+              "RelativeDocumentMoniker": "Hotel\\BD.cs",
+              "ToolTip": "C:\\Users\\Alfredo\\Documents\\Visual Studio 2022\\GitHub\\Hotel\\BD.cs",
+              "RelativeToolTip": "Hotel\\BD.cs",
+              "ViewState": "AgIAABcBAAAAAAAAAAAYwCEBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T16:13:34.374Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "VisualizacionUsuario.cs",
-              "DocumentMoniker": "C:\\Users\\arisc\\OneDrive\\Documentos\\GitHub\\hotel\\Hotel\\VisualizacionUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\Alfredo\\Documents\\Visual Studio 2022\\GitHub\\Hotel\\VisualizacionUsuario.cs",
               "RelativeDocumentMoniker": "Hotel\\VisualizacionUsuario.cs",
-              "ToolTip": "C:\\Users\\arisc\\OneDrive\\Documentos\\GitHub\\hotel\\Hotel\\VisualizacionUsuario.cs",
+              "ToolTip": "C:\\Users\\Alfredo\\Documents\\Visual Studio 2022\\GitHub\\Hotel\\VisualizacionUsuario.cs",
               "RelativeToolTip": "Hotel\\VisualizacionUsuario.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAAwEcAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAOQAAAAAAAAAAAAAACsBAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-26T14:52:08.564Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 18,
+              "Title": "Huesped.cs",
+              "DocumentMoniker": "C:\\Users\\Alfredo\\Documents\\Visual Studio 2022\\GitHub\\Hotel\\Huesped.cs",
+              "RelativeDocumentMoniker": "Hotel\\Huesped.cs",
+              "ToolTip": "C:\\Users\\Alfredo\\Documents\\Visual Studio 2022\\GitHub\\Hotel\\Huesped.cs",
+              "RelativeToolTip": "Hotel\\Huesped.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T18:26:38.815Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "RegistroHabitaciones.cs",
+              "DocumentMoniker": "C:\\Users\\Alfredo\\Documents\\Visual Studio 2022\\GitHub\\Hotel\\RegistroHabitaciones.cs",
+              "RelativeDocumentMoniker": "Hotel\\RegistroHabitaciones.cs",
+              "ToolTip": "C:\\Users\\Alfredo\\Documents\\Visual Studio 2022\\GitHub\\Hotel\\RegistroHabitaciones.cs",
+              "RelativeToolTip": "Hotel\\RegistroHabitaciones.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T06:33:10.737Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "Reservacion.cs",
-              "DocumentMoniker": "C:\\Users\\arisc\\OneDrive\\Documentos\\GitHub\\hotel\\Hotel\\Reservacion.cs",
+              "DocumentMoniker": "C:\\Users\\Alfredo\\Documents\\Visual Studio 2022\\GitHub\\Hotel\\Reservacion.cs",
               "RelativeDocumentMoniker": "Hotel\\Reservacion.cs",
-              "ToolTip": "C:\\Users\\arisc\\OneDrive\\Documentos\\GitHub\\hotel\\Hotel\\Reservacion.cs",
+              "ToolTip": "C:\\Users\\Alfredo\\Documents\\Visual Studio 2022\\GitHub\\Hotel\\Reservacion.cs",
               "RelativeToolTip": "Hotel\\Reservacion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAqwIQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-26T17:45:24.582Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\arisc\\OneDrive\\Documentos\\GitHub\\hotel\\Hotel\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Alfredo\\Documents\\Visual Studio 2022\\GitHub\\Hotel\\Form1.cs",
               "RelativeDocumentMoniker": "Hotel\\Form1.cs",
-              "ToolTip": "C:\\Users\\arisc\\OneDrive\\Documentos\\GitHub\\hotel\\Hotel\\Form1.cs",
+              "ToolTip": "C:\\Users\\Alfredo\\Documents\\Visual Studio 2022\\GitHub\\Hotel\\Form1.cs",
               "RelativeToolTip": "Hotel\\Form1.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAQwEIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-27T20:22:44.091Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Ingreso_Huesped.cs",
+              "DocumentMoniker": "C:\\Users\\Alfredo\\Documents\\Visual Studio 2022\\GitHub\\Hotel\\Ingreso_Huesped.cs",
+              "RelativeDocumentMoniker": "Hotel\\Ingreso_Huesped.cs",
+              "ToolTip": "C:\\Users\\Alfredo\\Documents\\Visual Studio 2022\\GitHub\\Hotel\\Ingreso_Huesped.cs",
+              "RelativeToolTip": "Hotel\\Ingreso_Huesped.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAYwBgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T21:16:50.204Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\Alfredo\\Documents\\Visual Studio 2022\\GitHub\\Hotel\\Usuario.cs",
+              "RelativeDocumentMoniker": "Hotel\\Usuario.cs",
+              "ToolTip": "C:\\Users\\Alfredo\\Documents\\Visual Studio 2022\\GitHub\\Hotel\\Usuario.cs",
+              "RelativeToolTip": "Hotel\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T15:46:16.639Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Alfredo\\Documents\\Visual Studio 2022\\GitHub\\Hotel\\Program.cs",
+              "RelativeDocumentMoniker": "Hotel\\Program.cs",
+              "ToolTip": "C:\\Users\\Alfredo\\Documents\\Visual Studio 2022\\GitHub\\Hotel\\Program.cs",
+              "RelativeToolTip": "Hotel\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T15:46:11.872Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Habitacion.cs",
+              "DocumentMoniker": "C:\\Users\\Alfredo\\Documents\\Visual Studio 2022\\GitHub\\Hotel\\Habitacion.cs",
+              "RelativeDocumentMoniker": "Hotel\\Habitacion.cs",
+              "ToolTip": "C:\\Users\\Alfredo\\Documents\\Visual Studio 2022\\GitHub\\Hotel\\Habitacion.cs",
+              "RelativeToolTip": "Hotel\\Habitacion.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAmwBoAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T15:46:07.205Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Archivo.cs",
+              "DocumentMoniker": "C:\\Users\\Alfredo\\Documents\\Visual Studio 2022\\GitHub\\Hotel\\Archivo.cs",
+              "RelativeDocumentMoniker": "Hotel\\Archivo.cs",
+              "ToolTip": "C:\\Users\\Alfredo\\Documents\\Visual Studio 2022\\GitHub\\Hotel\\Archivo.cs",
+              "RelativeToolTip": "Hotel\\Archivo.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAmwG8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T01:04:45.465Z",
+              "IsPinned": true
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\arisc\\OneDrive\\Documentos\\GitHub\\hotel\\Hotel\\Form1.cs",
-              "RelativeDocumentMoniker": "Hotel\\Form1.cs",
-              "ToolTip": "C:\\Users\\arisc\\OneDrive\\Documentos\\GitHub\\hotel\\Hotel\\Form1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Hotel\\Form1.cs [Dise\u00F1o]",
+              "Title": "VisionReporte.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Alfredo\\Documents\\Visual Studio 2022\\GitHub\\Hotel\\VisionReporte.cs",
+              "RelativeDocumentMoniker": "Hotel\\VisionReporte.cs",
+              "ToolTip": "C:\\Users\\Alfredo\\Documents\\Visual Studio 2022\\GitHub\\Hotel\\VisionReporte.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Hotel\\VisionReporte.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T20:22:40.152Z",
-              "IsPinned": true,
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-06-02T02:24:18.172Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Reserva.cs",
+              "DocumentMoniker": "C:\\Users\\Alfredo\\Documents\\Visual Studio 2022\\GitHub\\Hotel\\Reserva.cs",
+              "RelativeDocumentMoniker": "Hotel\\Reserva.cs",
+              "ToolTip": "C:\\Users\\Alfredo\\Documents\\Visual Studio 2022\\GitHub\\Hotel\\Reserva.cs",
+              "RelativeToolTip": "Hotel\\Reserva.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T03:12:01.658Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ConsultaHabitaciones.cs",
+              "DocumentMoniker": "C:\\Users\\Alfredo\\Documents\\Visual Studio 2022\\GitHub\\Hotel\\ConsultaHabitaciones.cs",
+              "RelativeDocumentMoniker": "Hotel\\ConsultaHabitaciones.cs",
+              "ToolTip": "C:\\Users\\Alfredo\\Documents\\Visual Studio 2022\\GitHub\\Hotel\\ConsultaHabitaciones.cs",
+              "RelativeToolTip": "Hotel\\ConsultaHabitaciones.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA8wCkAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T17:21:10.089Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Ingreso_Huesped.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Alfredo\\Documents\\Visual Studio 2022\\GitHub\\Hotel\\Ingreso_Huesped.cs",
+              "RelativeDocumentMoniker": "Hotel\\Ingreso_Huesped.cs",
+              "ToolTip": "C:\\Users\\Alfredo\\Documents\\Visual Studio 2022\\GitHub\\Hotel\\Ingreso_Huesped.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Hotel\\Ingreso_Huesped.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T03:32:44.462Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Reporte.cs",
+              "DocumentMoniker": "C:\\Users\\Alfredo\\Documents\\Visual Studio 2022\\GitHub\\Hotel\\Reporte.cs",
+              "RelativeDocumentMoniker": "Hotel\\Reporte.cs",
+              "ToolTip": "C:\\Users\\Alfredo\\Documents\\Visual Studio 2022\\GitHub\\Hotel\\Reporte.cs",
+              "RelativeToolTip": "Hotel\\Reporte.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T04:03:36.999Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InicioSeccioncs.cs",
+              "DocumentMoniker": "C:\\Users\\Alfredo\\Documents\\Visual Studio 2022\\GitHub\\Hotel\\InicioSeccioncs.cs",
+              "RelativeDocumentMoniker": "Hotel\\InicioSeccioncs.cs",
+              "ToolTip": "C:\\Users\\Alfredo\\Documents\\Visual Studio 2022\\GitHub\\Hotel\\InicioSeccioncs.cs",
+              "RelativeToolTip": "Hotel\\InicioSeccioncs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T23:23:54.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "InicioSeccioncs.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Alfredo\\Documents\\Visual Studio 2022\\GitHub\\Hotel\\InicioSeccioncs.cs",
+              "RelativeDocumentMoniker": "Hotel\\InicioSeccioncs.cs",
+              "ToolTip": "C:\\Users\\Alfredo\\Documents\\Visual Studio 2022\\GitHub\\Hotel\\InicioSeccioncs.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Hotel\\InicioSeccioncs.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T23:21:06.973Z"
             }
           ]
         }

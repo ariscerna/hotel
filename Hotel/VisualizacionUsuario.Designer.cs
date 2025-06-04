@@ -39,16 +39,17 @@
             this.BtnImprimir = new System.Windows.Forms.ToolStripButton();
             this.BtnSalir = new System.Windows.Forms.ToolStripButton();
             this.DgvConsulta = new System.Windows.Forms.DataGridView();
+            this.BtnFactura = new System.Windows.Forms.ToolStripButton();
             this.toolStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DgvConsulta)).BeginInit();
             this.SuspendLayout();
             // 
             // TxtNombre
             // 
-            this.TxtNombre.Location = new System.Drawing.Point(239, 86);
+            this.TxtNombre.Location = new System.Drawing.Point(235, 86);
             this.TxtNombre.Margin = new System.Windows.Forms.Padding(4);
             this.TxtNombre.Name = "TxtNombre";
-            this.TxtNombre.Size = new System.Drawing.Size(384, 22);
+            this.TxtNombre.Size = new System.Drawing.Size(388, 22);
             this.TxtNombre.TabIndex = 6;
             // 
             // BtnBuscar
@@ -60,6 +61,7 @@
             this.BtnBuscar.TabIndex = 5;
             this.BtnBuscar.Text = "Buscar";
             this.BtnBuscar.UseVisualStyleBackColor = true;
+            this.BtnBuscar.Click += new System.EventHandler(this.BtnBuscar_Click);
             // 
             // toolStrip1
             // 
@@ -70,10 +72,11 @@
             this.BtnModificar,
             this.BtnExcel,
             this.BtnImprimir,
+            this.BtnFactura,
             this.BtnSalir});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(761, 35);
+            this.toolStrip1.Size = new System.Drawing.Size(824, 35);
             this.toolStrip1.TabIndex = 4;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -140,24 +143,36 @@
             // DgvConsulta
             // 
             this.DgvConsulta.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DgvConsulta.Location = new System.Drawing.Point(13, 168);
+            this.DgvConsulta.Location = new System.Drawing.Point(13, 139);
             this.DgvConsulta.Margin = new System.Windows.Forms.Padding(4);
             this.DgvConsulta.Name = "DgvConsulta";
             this.DgvConsulta.RowHeadersWidth = 51;
-            this.DgvConsulta.Size = new System.Drawing.Size(719, 336);
+            this.DgvConsulta.Size = new System.Drawing.Size(798, 336);
             this.DgvConsulta.TabIndex = 7;
+            this.DgvConsulta.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DgvConsulta_CellContentClick);
+            // 
+            // BtnFactura
+            // 
+            this.BtnFactura.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.BtnFactura.Image = ((System.Drawing.Image)(resources.GetObject("BtnFactura.Image")));
+            this.BtnFactura.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.BtnFactura.Name = "BtnFactura";
+            this.BtnFactura.Size = new System.Drawing.Size(34, 32);
+            this.BtnFactura.Text = "toolStripButton1";
+            this.BtnFactura.Click += new System.EventHandler(this.BtnFactura_Click);
             // 
             // VisualizacionUsuario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(761, 517);
+            this.ClientSize = new System.Drawing.Size(824, 483);
             this.Controls.Add(this.DgvConsulta);
             this.Controls.Add(this.TxtNombre);
             this.Controls.Add(this.BtnBuscar);
             this.Controls.Add(this.toolStrip1);
             this.Name = "VisualizacionUsuario";
             this.Text = "VisualizacionUsuario";
+            this.Load += new System.EventHandler(this.VisualizacionUsuario_Load);
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DgvConsulta)).EndInit();
@@ -178,5 +193,6 @@
         private System.Windows.Forms.ToolStripButton BtnImprimir;
         private System.Windows.Forms.ToolStripButton BtnSalir;
         private System.Windows.Forms.DataGridView DgvConsulta;
+        private System.Windows.Forms.ToolStripButton BtnFactura;
     }
 }

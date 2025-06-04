@@ -32,9 +32,11 @@
             this.LblFechaR = new System.Windows.Forms.Label();
             this.TxtFechaR = new System.Windows.Forms.TextBox();
             this.LblTipoR = new System.Windows.Forms.Label();
-            this.ChTipoR = new System.Windows.Forms.CheckedListBox();
             this.BtnCancelarR = new System.Windows.Forms.Button();
-            this.BtnRegistarR = new System.Windows.Forms.Button();
+            this.BtnGuardar = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.TxtAsunto = new System.Windows.Forms.TextBox();
+            this.CmbTipoReporte = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // LblReporte
@@ -71,43 +73,65 @@
             this.LblTipoR.TabIndex = 3;
             this.LblTipoR.Text = "Tipo de Reporte :";
             // 
-            // ChTipoR
-            // 
-            this.ChTipoR.FormattingEnabled = true;
-            this.ChTipoR.Items.AddRange(new object[] {
-            " Reporte de Queja ",
-            "Reporte de Sugerencia"});
-            this.ChTipoR.Location = new System.Drawing.Point(160, 175);
-            this.ChTipoR.Name = "ChTipoR";
-            this.ChTipoR.Size = new System.Drawing.Size(209, 55);
-            this.ChTipoR.TabIndex = 4;
-            // 
             // BtnCancelarR
             // 
-            this.BtnCancelarR.Location = new System.Drawing.Point(19, 259);
+            this.BtnCancelarR.Location = new System.Drawing.Point(19, 308);
             this.BtnCancelarR.Name = "BtnCancelarR";
             this.BtnCancelarR.Size = new System.Drawing.Size(75, 23);
             this.BtnCancelarR.TabIndex = 5;
             this.BtnCancelarR.Text = "Cancelar";
             this.BtnCancelarR.UseVisualStyleBackColor = true;
+            this.BtnCancelarR.Click += new System.EventHandler(this.BtnCancelarR_Click);
             // 
-            // BtnRegistarR
+            // BtnGuardar
             // 
-            this.BtnRegistarR.Location = new System.Drawing.Point(226, 259);
-            this.BtnRegistarR.Name = "BtnRegistarR";
-            this.BtnRegistarR.Size = new System.Drawing.Size(111, 23);
-            this.BtnRegistarR.TabIndex = 6;
-            this.BtnRegistarR.Text = "Registrar";
-            this.BtnRegistarR.UseVisualStyleBackColor = true;
+            this.BtnGuardar.Location = new System.Drawing.Point(250, 308);
+            this.BtnGuardar.Name = "BtnGuardar";
+            this.BtnGuardar.Size = new System.Drawing.Size(111, 23);
+            this.BtnGuardar.TabIndex = 6;
+            this.BtnGuardar.Text = "Guardar";
+            this.BtnGuardar.UseVisualStyleBackColor = true;
+            this.BtnGuardar.Click += new System.EventHandler(this.BtnGuardar_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(16, 235);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(57, 16);
+            this.label1.TabIndex = 8;
+            this.label1.Text = "Asunto  :";
+            // 
+            // TxtAsunto
+            // 
+            this.TxtAsunto.Location = new System.Drawing.Point(160, 235);
+            this.TxtAsunto.Name = "TxtAsunto";
+            this.TxtAsunto.Size = new System.Drawing.Size(177, 22);
+            this.TxtAsunto.TabIndex = 9;
+            // 
+            // CmbTipoReporte
+            // 
+            this.CmbTipoReporte.FormattingEnabled = true;
+            this.CmbTipoReporte.Items.AddRange(new object[] {
+            "Financiero",
+            "Ocupacion",
+            "Inventario",
+            "Otro"});
+            this.CmbTipoReporte.Location = new System.Drawing.Point(160, 175);
+            this.CmbTipoReporte.Name = "CmbTipoReporte";
+            this.CmbTipoReporte.Size = new System.Drawing.Size(177, 24);
+            this.CmbTipoReporte.TabIndex = 10;
             // 
             // Reporte
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(406, 308);
-            this.Controls.Add(this.BtnRegistarR);
+            this.ClientSize = new System.Drawing.Size(399, 384);
+            this.Controls.Add(this.CmbTipoReporte);
+            this.Controls.Add(this.TxtAsunto);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.BtnGuardar);
             this.Controls.Add(this.BtnCancelarR);
-            this.Controls.Add(this.ChTipoR);
             this.Controls.Add(this.LblTipoR);
             this.Controls.Add(this.TxtFechaR);
             this.Controls.Add(this.LblFechaR);
@@ -125,8 +149,10 @@
         private System.Windows.Forms.Label LblFechaR;
         private System.Windows.Forms.TextBox TxtFechaR;
         private System.Windows.Forms.Label LblTipoR;
-        private System.Windows.Forms.CheckedListBox ChTipoR;
         private System.Windows.Forms.Button BtnCancelarR;
-        private System.Windows.Forms.Button BtnRegistarR;
+        private System.Windows.Forms.Button BtnGuardar;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox TxtAsunto;
+        private System.Windows.Forms.ComboBox CmbTipoReporte;
     }
 }
