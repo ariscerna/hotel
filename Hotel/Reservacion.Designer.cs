@@ -32,7 +32,7 @@
             this.LbLFechaR = new System.Windows.Forms.Label();
             this.TxtFechaR = new System.Windows.Forms.TextBox();
             this.LblCostoR = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.TxtCosto = new System.Windows.Forms.TextBox();
             this.LblTipoR = new System.Windows.Forms.Label();
             this.LblNombreR = new System.Windows.Forms.Label();
             this.TxtNombre = new System.Windows.Forms.TextBox();
@@ -43,6 +43,8 @@
             this.chkSuite = new System.Windows.Forms.CheckBox();
             this.LblNumeroH = new System.Windows.Forms.Label();
             this.TxtNumeroH = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.TxtSalida = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // LblReservacion
@@ -57,7 +59,7 @@
             // LbLFechaR
             // 
             this.LbLFechaR.AutoSize = true;
-            this.LbLFechaR.Location = new System.Drawing.Point(16, 86);
+            this.LbLFechaR.Location = new System.Drawing.Point(19, 68);
             this.LbLFechaR.Name = "LbLFechaR";
             this.LbLFechaR.Size = new System.Drawing.Size(144, 16);
             this.LbLFechaR.TabIndex = 1;
@@ -65,7 +67,7 @@
             // 
             // TxtFechaR
             // 
-            this.TxtFechaR.Location = new System.Drawing.Point(202, 83);
+            this.TxtFechaR.Location = new System.Drawing.Point(201, 68);
             this.TxtFechaR.Name = "TxtFechaR";
             this.TxtFechaR.Size = new System.Drawing.Size(180, 22);
             this.TxtFechaR.TabIndex = 2;
@@ -79,12 +81,12 @@
             this.LblCostoR.TabIndex = 3;
             this.LblCostoR.Text = "Costo de Reservacion";
             // 
-            // textBox1
+            // TxtCosto
             // 
-            this.textBox1.Location = new System.Drawing.Point(202, 146);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(180, 22);
-            this.textBox1.TabIndex = 4;
+            this.TxtCosto.Location = new System.Drawing.Point(202, 146);
+            this.TxtCosto.Name = "TxtCosto";
+            this.TxtCosto.Size = new System.Drawing.Size(180, 22);
+            this.TxtCosto.TabIndex = 4;
             // 
             // LblTipoR
             // 
@@ -166,7 +168,7 @@
             // LblNumeroH
             // 
             this.LblNumeroH.AutoSize = true;
-            this.LblNumeroH.Location = new System.Drawing.Point(22, 189);
+            this.LblNumeroH.Location = new System.Drawing.Point(16, 234);
             this.LblNumeroH.Name = "LblNumeroH";
             this.LblNumeroH.Size = new System.Drawing.Size(142, 16);
             this.LblNumeroH.TabIndex = 14;
@@ -179,11 +181,29 @@
             this.TxtNumeroH.Size = new System.Drawing.Size(179, 22);
             this.TxtNumeroH.TabIndex = 15;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(19, 104);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(112, 16);
+            this.label1.TabIndex = 16;
+            this.label1.Text = "Fecha de Salida :";
+            // 
+            // TxtSalida
+            // 
+            this.TxtSalida.Location = new System.Drawing.Point(202, 104);
+            this.TxtSalida.Name = "TxtSalida";
+            this.TxtSalida.Size = new System.Drawing.Size(180, 22);
+            this.TxtSalida.TabIndex = 17;
+            // 
             // Reservacion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(511, 450);
+            this.Controls.Add(this.TxtSalida);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.TxtNumeroH);
             this.Controls.Add(this.LblNumeroH);
             this.Controls.Add(this.chkSuite);
@@ -194,7 +214,7 @@
             this.Controls.Add(this.TxtNombre);
             this.Controls.Add(this.LblNombreR);
             this.Controls.Add(this.LblTipoR);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.TxtCosto);
             this.Controls.Add(this.LblCostoR);
             this.Controls.Add(this.TxtFechaR);
             this.Controls.Add(this.LbLFechaR);
@@ -212,7 +232,7 @@
         private System.Windows.Forms.Label LbLFechaR;
         private System.Windows.Forms.TextBox TxtFechaR;
         private System.Windows.Forms.Label LblCostoR;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox TxtCosto;
         private System.Windows.Forms.Label LblTipoR;
         private System.Windows.Forms.Label LblNombreR;
         private System.Windows.Forms.TextBox TxtNombre;
@@ -223,5 +243,7 @@
         private System.Windows.Forms.CheckBox chkSuite;
         private System.Windows.Forms.Label LblNumeroH;
         private System.Windows.Forms.TextBox TxtNumeroH;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox TxtSalida;
     }
 }

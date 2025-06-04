@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Hotel
 {
-    public partial class Facturacion : Form
+    public partial class VisionReporte : Form
     {
-        public Facturacion()
+        public VisionReporte()
         {
             InitializeComponent();
         }

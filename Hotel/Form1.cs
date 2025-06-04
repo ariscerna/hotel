@@ -59,7 +59,7 @@ namespace Hotel
 
         private void BtnCancelar_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Application.Exit(); // Cierra toda la aplicación
         }
 
         private void RbdVisualizacion_CheckedChanged(object sender, EventArgs e)

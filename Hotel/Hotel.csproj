@@ -104,18 +104,13 @@
     <Compile Include="Agregar_Usuario.Designer.cs">
       <DependentUpon>Agregar_Usuario.cs</DependentUpon>
     </Compile>
+    <Compile Include="Archivo.cs" />
     <Compile Include="BD.cs" />
     <Compile Include="ConsultaHabitaciones.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ConsultaHabitaciones.Designer.cs">
       <DependentUpon>ConsultaHabitaciones.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Facturacion.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Facturacion.Designer.cs">
-      <DependentUpon>Facturacion.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -151,6 +146,7 @@
     <Compile Include="Reporte.Designer.cs">
       <DependentUpon>Reporte.cs</DependentUpon>
     </Compile>
+    <Compile Include="Reserva.cs" />
     <Compile Include="Reservacion.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -158,6 +154,12 @@
       <DependentUpon>Reservacion.cs</DependentUpon>
     </Compile>
     <Compile Include="Usuario.cs" />
+    <Compile Include="VisionReporte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VisionReporte.Designer.cs">
+      <DependentUpon>VisionReporte.cs</DependentUpon>
+    </Compile>
     <Compile Include="VisualizacionUsuario.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -169,9 +171,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ConsultaHabitaciones.resx">
       <DependentUpon>ConsultaHabitaciones.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Facturacion.resx">
-      <DependentUpon>Facturacion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -200,6 +199,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Reservacion.resx">
       <DependentUpon>Reservacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VisionReporte.resx">
+      <DependentUpon>VisionReporte.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="VisualizacionUsuario.resx">
       <DependentUpon>VisualizacionUsuario.cs</DependentUpon>
